@@ -1,0 +1,115 @@
+body {
+font-family: 'Poppins', sans-serif;
+background-color: rgb(246,247,235);
+}
+header {
+  background-color: rgb(79,52,90);
+  color: rgb(246,247,235);
+  margin-left:-20px;
+  margin-top:-20px;
+  margin-right:-20px;
+}
+.title {
+  text-align: center;
+  border-style: solid;
+  color: rgb(246,247,235);
+  border-bottom-color: rgb(246,247,235);
+  border-top-color: rgb(246,247,235);
+  border-right-color: rgb(79,52,90);
+  border-left-color: rgb(79,52,90);
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+  color: rgb(246,247,235);
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  float: left;
+}
+li a {
+  display: flex;
+  justify-content: center;
+  color: rgb(246,247,235);
+  padding: 15px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(246,247,235);
+  color: rgb(79,52,90);
+}
+
+.wrapper {
+  background-color: rgb(230, 146, 68);
+  color: rgb(246,247,235);
+  width: 50%;
+  padding: 30px;
+  height: 0 auto;
+  margin: 0 auto;
+}
+
+.submit-btn {
+  background-color: rgba(10, 19, 104, 0.25);
+  border-radius: 3px;
+  border: 1px solid rgb(35, 26, 158);
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.firstimg {
+  z-index: 3;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 20px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  object-fit: cover;
+  opacity: 0.7;
+  text-align: center;
+} 
+img {
+  object-fit: cover;
+}
+h1 {
+  text-align: center;
+  color: rgb(79,52,90);
+}
+.aboutus {
+  display: flex;
+  flex-direction: row;
+  color: rgb(79,52,90);
+  padding-left: 10px;
+}
+h3 {
+  padding-left: 10px;
+}
+#scrollToTopBtn {
+  background-color: rgb(79,52,90);
+  border: none;
+  border-radius: 25px;
+  color: rgb(246,247,235);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 48px;
+  width: 200px;
+  font-family: 'Poppins', sans-serif;
+}
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+h2 {
+  text-align: center;
+  color: rgb(79,52,90);
+}
+img {
+  object-fit: cover;
+}
