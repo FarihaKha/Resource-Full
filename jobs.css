@@ -1,0 +1,171 @@
+body {
+font-family: 'Poppins', sans-serif;
+background-color: rgb(246,247,235);
+}
+header {
+  background-color: rgb(79,52,90);
+  color: rgb(246,247,235);
+  margin-left:-20px;
+  margin-top:-20px;
+  margin-right:-20px;
+}
+.title {
+  text-align: center;
+  border-style: solid;
+  border-bottom-color: rgb(246,247,235);
+  border-top-color: rgb(246,247,235);
+  border-right-color: rgb(79,52,90);
+  border-left-color: rgb(79,52,90);
+  color: rgb(246,247,235);
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+  color: rgb(246,247,235);
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  float: left;
+}
+li a {
+  display: flex;
+  justify-content: center;
+  color: rgb(246,247,235);
+  padding: 15px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(246,247,235);
+  color: rgb(79,52,90);
+}
+.jobs {
+  text-align: center;
+  color: rgb(66,129,164);
+}
+.firstimg {
+  z-index: 3;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 20px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  object-fit: cover;
+  opacity: 0.7;
+  text-align: center;
+}
+img {
+  object-fit: contain;
+}
+.resources {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+.resume {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  justify-content: center space-around;
+}
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center space-around;
+  margin-right: 10px;
+}
+.cv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center space-around;
+}
+.bluebox {
+  background-color: rgb(66,129,164);
+  color: rgb(246,247,235);
+  text-align: center;
+  margin-left:-20px;
+  margin-top:-20px;
+  margin-right:-20px;
+}
+.blur:hover {
+  opacity: .75;
+}
+.tip {
+  background-color: rgb(66,129,164);
+  color: rgb(246,247,235);
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+  width: 1220px;
+  height: 50px;
+}
+.lastbox {
+  background-color: rgb(66,129,164);
+  color: rgb(246,247,235);
+  text-align: center;
+  margin-left:-20px;
+  margin-top:20px;
+  margin-right:-20px;
+}
+.websites {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  padding-top: 10px;
+
+}
+.jopwell {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+.pocc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+.diversity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+.pdn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: -20px;
+}
+.link {
+  color: rgb(246,247,235);
+}
+/* button cs */
+#scrollToTopBtn {
+  background-color: rgb(66,129,164);
+  border: none;
+  border-radius: 25px;
+  color: rgb(246,247,235);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 48px;
+  width: 200px;
+  font-family: 'Poppins', sans-serif;
+}
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
