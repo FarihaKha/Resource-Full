@@ -1,0 +1,414 @@
+body {
+font-family: 'Poppins', sans-serif;
+background-color: rgb(246,247,235);
+color: rgb(79,52,90);
+text-align: center;
+}
+header {
+  background-color: rgb(79,52,90);
+  color: rgb(246,247,235);
+  margin-left:-20px;
+  margin-top:-20px;
+  margin-right:-20px;
+}
+.title {
+  text-align: center;
+  border-style: solid;
+  border-bottom-color: rgb(246,247,235);
+  border-top-color: rgb(246,247,235);
+  border-right-color: rgb(79,52,90);
+  border-left-color: rgb(79,52,90);
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+  color: rgb(246,247,235);
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  float: left;
+}
+li a {
+  display: flex;
+  justify-content: center;
+  color: rgb(246,247,235);
+  padding: 15px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(246,247,235);
+  color: rgb(79,52,90);
+}
+a{
+  text-decoration: none;
+  color: orange;
+}
+h1 {
+  text-align: center;
+}
+.greenbox1 {
+  background-color: rgb(22, 88, 22);
+  color: rgb(246,247,235);
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+  width: 1220px;
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+.accessNYC {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  padding: 10px;
+}
+.greenbox2 {
+  background-color: rgb(46, 143, 46);
+  color: rgb(246,247,235);
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+  width: 1220px;
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+.nycdoe {
+  height: 250px;
+  width: 400px;
+  object-fit: cover;
+  padding: 10px;
+}
+.greenbox3 {
+  background-color: rgb(22, 88, 22);
+  color: rgb(246,247,235);
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+  width: 1220px;
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+.bedStuyStrong {
+  height: 250px;
+  width: 350px;
+  object-fit: cover;
+  padding: 10px;
+}
+.greenbox4 {
+  background-color: rgb(46, 143, 46);
+  color: rgb(246,247,235);
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+  width: 1220px;
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+.brooklynRescueMission {
+  height: 250px;
+  width: 400px;
+  object-fit: cover;
+  padding: 10px;
+}
+.greenbox5 {
+  background-color: rgb(22, 88, 22);
+  color: rgb(246,247,235);
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+  width: 1220px;
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+.rethinkFood {
+  height: 250px;
+  width: 400px;
+  object-fit: cover;
+  padding: 10px;
+}
+.greenbox6 {
+  background-color: rgb(46, 143, 46);
+  color: rgb(246,247,235);
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+  width: 1220px;
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+.invisibleHands {
+  height: 250px;
+  width: 200px;
+  object-fit: cover;
+  padding: 10px;
+}
+.greenbox7 {
+  background-color: rgb(22, 88, 22);
+  color: rgb(246,247,235);
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+  width: 1220px;
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+.queensTogether {
+  height: 250px;
+  width: 400px;
+  object-fit: cover;
+  padding: 10px;
+}
+.greenbox8 {
+  background-color: rgb(46, 143, 46);
+  color: rgb(246,247,235);
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+  width: 1220px;
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+.heartOfDinner {
+  height: 250px;
+  width: 400px;
+  object-fit: cover;
+  padding: 10px;
+}
+.greenbox9 {
+  background-color: rgb(22, 88, 22);
+  color: rgb(246,247,235);
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+  width: 1220px;
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+.theOkraProject {
+  height: 250px;
+  width: 400px;
+  object-fit: cover;
+  padding: 10px;
+}
+.greenbox10 {
+  background-color: rgb(46, 143, 46);
+  color: rgb(246,247,235);
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+  width: 1220px;
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+.foodBankforNYC {
+  height: 250px;
+  width: 400px;
+  object-fit: cover;
+  padding: 10px;
+}
+.greenbox11 {
+  background-color: rgb(22, 88, 22);
+  color: rgb(246,247,235);
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+  width: 1220px;
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+.fuelThePeople {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  padding: 10px;
+}
+.greenbox12 {
+  background-color: rgb(46, 143, 46);
+  color: rgb(246,247,235);
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+  width: 1220px;
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+.coalitionForTheHomeless {
+  height: 250px;
+  width: 400px;
+  object-fit: cover;
+  padding: 10px;
+}
+.greenbox13 {
+  background-color: rgb(22, 88, 22);
+  color: rgb(246,247,235);
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+  width: 1220px;
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+.newAlternativesForLGBTHomelessYouth {
+  height: 250px;
+  width: 400px;
+  object-fit: cover;
+  padding: 10px;
+}
+.greenbox14 {
+  background-color: rgb(46, 143, 46);
+  color: rgb(246,247,235);
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+  width: 1220px;
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+.trinityPlaceShelter{
+  height: 250px;
+  width: 400px;
+  object-fit: cover;
+  padding: 10px;
+}
+.greenbox15 {
+  background-color: rgb(22, 88, 22);
+  color: rgb(246,247,235);
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+  width: 1220px;
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+.vipMujeres{
+  height: 250px;
+  width: 400px;
+  object-fit: cover;
+  padding: 10px;
+}
+.greenbox16 {
+  background-color: rgb(46, 143, 46);
+  color: rgb(246,247,235);
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+  width: 1220px;
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+#scrollToTopBtn {
+  background-color: rgb(2, 43, 2);
+  border: none;
+  border-radius: 25px;
+  color: rgb(246,247,235);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 48px;
+  width: 200px;
+  font-family: 'Poppins', sans-serif;
+}
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
