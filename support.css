@@ -1,0 +1,102 @@
+body {
+font-family: 'Poppins', sans-serif;
+background-color: rgb(246,247,235);
+color: rgb(233, 79, 55);
+}
+header {
+  background-color: rgb(79,52,90);
+  color: rgb(246,247,235);
+  margin-left:-20px;
+  margin-top:-20px;
+  margin-right:-20px;
+}
+.title {
+  text-align: center;
+  border-style: solid;
+  border-bottom-color: rgb(246,247,235);
+  border-top-color: rgb(246,247,235);
+  border-right-color: rgb(79,52,90);
+  border-left-color: rgb(79,52,90);
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+  color: rgb(246,247,235);
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  float: left;
+}
+li a {
+  display: flex;
+  justify-content: center;
+  color: rgb(246,247,235);
+  padding: 15px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(246,247,235);
+  color: rgb(79,52,90);
+}
+a {
+ color: rgb(246,247,235);
+}
+h1 {
+  text-align: center;
+} 
+h2 {
+  text-align: center;
+} 
+.subheading{
+  color: rgb(246,247,235);
+
+}
+.supportpic{
+  z-index: 3;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 20px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  object-fit: cover;
+  opacity: 0.7;
+  text-align: center;
+} 
+.bipoc{
+  margin-left: -20px;
+  margin-top: 20px;
+  margin-right: -20px;
+  background-color: rgb(233, 79, 55);
+  color: rgb(246,247,235);
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+/* button cs */
+#scrollToTopBtn {
+  background-color: rgb(233, 79, 55);
+  border: none;
+  border-radius: 25px;
+  color: rgb(246,247,235);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 48px;
+  width: 200px;
+  font-family: 'Poppins', sans-serif;
+}
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
