@@ -1,0 +1,124 @@
+body {
+font-family: 'Poppins', sans-serif;
+background-color: rgb(246,247,235);
+color: rgb(2, 43, 2);
+text-align: center;
+}
+header {
+  background-color: rgb(79,52,90);
+  color: rgb(246,247,235);
+  margin-left:-20px;
+  margin-top:-20px;
+  margin-right:-20px;
+}
+.title {
+  text-align: center;
+  border-style: solid;
+  border-bottom-color: rgb(246,247,235);
+  border-top-color: rgb(246,247,235);
+  border-right-color: rgb(79,52,90);
+  border-left-color: rgb(79,52,90);
+}
+.purple {
+  color: rgb(79,52,90);
+}
+.white {
+  color: rgb(246,247,235);
+  background-color: rgb(79,52,90);
+  margin-bottom: 20px;
+}
+.firstimg {
+  z-index: 3;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 20px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  object-fit: cover;
+  opacity: 0.7;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+  color: rgb(246,247,235);
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  float: left;
+}
+li a {
+  display: flex;
+  justify-content: center;
+  color: rgb(246,247,235);
+  padding: 15px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(246,247,235);
+  color: rgb(79,52,90);
+}
+
+.resources {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left:-20px;
+  margin-top: 20px;
+  margin-right:-20px;
+  background-color: rgb(79,52,90);
+  color: rgb(246,247,235);
+}
+.medicaid {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.apicha {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.sacssny {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.links {
+  color: rgb(246,247,235);
+}
+.link {
+  color: rgb(79,52,90);
+}
+img {
+  object-fit: cover;
+}
+#scrollToTopBtn {
+  background-color: rgb(79,52,90);
+  border: none;
+  border-radius: 25px;
+  color: rgb(246,247,235);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 48px;
+  width: 200px;
+  font-family: 'Poppins', sans-serif;
+}
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
